@@ -1,4 +1,6 @@
-package level3;
+package level3.model;
+
+import level3.interfaces.Telephone;
 
 public class Smartphone implements Telephone {
     private String name;

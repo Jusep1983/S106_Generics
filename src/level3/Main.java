@@ -1,5 +1,8 @@
 package level3;
 
+import level3.model.Generic;
+import level3.model.Smartphone;
+
 public class Main {
 
     public static void main(String[] args) {
