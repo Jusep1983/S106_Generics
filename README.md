@@ -86,7 +86,7 @@ Para ejecutar el proyecto es necesario contar con:
 
     1. Ir al repositorio en GitHub:
        
-        https://github.com/Jusep1983/S105_Java-Utils.git
+            https://github.com/Jusep1983/S106_Generics.git
     2. Hacer clic en el botón verde "Code" (Código).
     3. Seleccionar la opción "Download ZIP".
     4. Extraer el archivo ZIP en la ubicación de preferencia.
@@ -95,10 +95,11 @@ Para ejecutar el proyecto es necesario contar con:
     1. Abrir IntelliJ IDEA.
     2. En la pantalla de inicio, seleccionar "Get from VCS" (Obtener desde el control de versiones).
     3. En la pestaña "Version Control", seleccionar Git.
-    4. En el campo "URL", pegar el enlace del repositorio: 
-          https://github.com/Jusep1983/S105_Java-Utils.git
-    6. Elegir la carpeta donde se guardará el proyecto y hacer clic en "Clone".
-    7. IntelliJ IDEA detectará el proyecto y pedirá importarlo como un proyecto de Java.
+    4. En el campo "URL", pegar el enlace del repositorio:
+       
+            https://github.com/Jusep1983/S106_Generics.git
+    5. Elegir la carpeta donde se guardará el proyecto y hacer clic en "Clone".
+    6. IntelliJ IDEA detectará el proyecto y pedirá importarlo como un proyecto de Java.
 
   - Opción 3: Desde la terminal (con Git instalado):
     1. Abre la terminal o línea de comandos.
