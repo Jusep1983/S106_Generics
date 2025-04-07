@@ -4,8 +4,8 @@ puede llamar al método takeAPhotograph()?
 No puede ya que el compilador solo reconoce si implementa la interficie Telephone,
 no que tipo de objeto és. Si quisiéramos que el método de la clase Generic
 methodOfTelephone() llamara al método de la clase Smartphone takeAPhotograph(),
-deberiamos implementar código dentro de él para que identificara si el objeto
-que entra por parametro es un Smartphone, por ejemplo asi:
+deberíamos implementar código dentro de él para que identificara si el objeto
+que entra por parámetro es un Smartphone, una posibilidad seria por ejemplo asi:
 
     public static <T extends Telephone> String methodOfTelephone(T object,int number ){
         String answer="";

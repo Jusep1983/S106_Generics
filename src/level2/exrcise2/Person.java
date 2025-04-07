@@ -13,6 +13,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Soy " + name + " " + surname  + " tengo " + age + " años";
+        return "Soy " + name + " " + surname + " tengo " + age + " años";
     }
 }

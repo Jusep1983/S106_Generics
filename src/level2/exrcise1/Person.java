@@ -1,4 +1,5 @@
 package level2.exrcise1;
+
 /*
 - Exercici 1
 Modifica l'exercici anterior de manera que un
@@ -17,6 +18,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Soy " + name + " " + surname  + " tengo " + age + " años";
+        return "Soy " + name + " " + surname + " tengo " + age + " años";
     }
 }
