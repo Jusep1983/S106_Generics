@@ -13,8 +13,12 @@ public class Main {
         ArrayList<Person> firstList = new ArrayList<>(Arrays.asList(juanito, manolito, pepita));
         ArrayList<Integer> secondList = new ArrayList<>(Arrays.asList(0, 1, 2, 3, 4, 5, 6, 7, 8, 9));
         ArrayList<Character> thirdList = new ArrayList<>(Arrays.asList('*', '@', '#', '+', '?', '€'));
+        System.out.println("\nPrimera lista: ");
+        GenericMethods.showParameters(firstList);
+        System.out.println("\nPrimera lista y segunda lista: ");
+        GenericMethods.showParameters(firstList, secondList);
+        System.out.println("\nPrimera lista, segunda lista y tercera lista: ");
         GenericMethods.showParameters(firstList, secondList, thirdList);
-
     }
 
 }
